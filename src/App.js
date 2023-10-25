@@ -4,7 +4,15 @@ import "./App.css";
 // import WelcomeProp from "./WelcomeProps";
 // import Section from "./Section";
 // import puppyImg from "./images/puppy1.jpg";
-import Say from "./Say";
+// import Say from "./Say";
+// import Clock from "./Clock";
+// import EventPractice from "./onChange";
+// import EventHandler from "./EventHander";
+// import FruitSelect from "./FruitSelect";
+// import RadioButton from "./RadioButton";
+// import Table from "./Table";
+// import TableMap from "./TableMap";
+import CreateRef from "./UseRef";
 
 function App() {
   // const name = "이재원";
@@ -59,7 +67,15 @@ function App() {
       {/* <MyComponent name="이재원" age={30}>
         안녕하세요^^
       </MyComponent> */}
-      <Say />
+      {/* <Say /> */}
+      {/* <Clock /> */}
+      {/* <EventPractice /> */}
+      {/* <EventHandler /> */}
+      {/* <FruitSelect /> */}
+      {/* <RadioButton /> */}
+      {/* <Table /> */}
+      {/* <TableMap /> */}
+      <CreateRef />
     </>
   );
 }
