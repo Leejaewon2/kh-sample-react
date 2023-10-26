@@ -12,8 +12,13 @@ import "./App.css";
 // import RadioButton from "./RadioButton";
 // import Table from "./Table";
 // import TableMap from "./TableMap";
-import CreateRef from "./UseRef";
-
+// import CreateRef from "./UseRef";
+// import UserList from "./UserList";
+// import TodoList from "./TodoList";
+// import Counter from "./Hooks1";
+// import NameCard from "react";
+// import MemberInfo from "./Hooks2";
+import Counter2 from "./Hooks3";
 function App() {
   // const name = "이재원";
   // const member = {
@@ -65,7 +70,7 @@ function App() {
     // </>
     <>
       {/* <MyComponent name="이재원" age={30}>
-        안녕하세요^^
+        //  안녕하세요^^
       </MyComponent> */}
       {/* <Say /> */}
       {/* <Clock /> */}
@@ -75,7 +80,13 @@ function App() {
       {/* <RadioButton /> */}
       {/* <Table /> */}
       {/* <TableMap /> */}
-      <CreateRef />
+      {/* <CreateRef /> */}
+      {/* <UserList /> */}
+      {/* <TodoList /> */}
+      {/* <Counter /> */}
+      {/* <NameCard /> */}
+      {/* <MemberInfo /> */}
+      <Counter2 />
     </>
   );
 }
